@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+
+h1 {
+	font-size:15px;
+	background-color:#848484;
+	padding:10px;
+	color:white;
+	margin:0px;
+}
+h2 {
+	font-size:15px;
+	float:left;
+	width:10%;
+	height:50px;
+    background-color:#B1B1B1;
+	padding:20px;
+	margin:0px;
+	}
+p  {
+	float:left;
+	height:15px;
+	width:80%;
+	margin-top:10px;
+	margin-left:5px;
+}
+div {
+	
+	box-sizing: border-box;
+	clear:both;
+	border: 1px solid #C8C8C8;
+	}
+
+body {
+	border: 1px solid #C8C8C8;
+}
+	
+	
+
