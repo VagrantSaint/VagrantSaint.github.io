@@ -1,4 +1,5 @@
 /* CSS Document */
+/*头部*/
 html body {
 	margin: 0;
 	font-size: 10px;
@@ -50,6 +51,29 @@ header {
 #account button {
 	width: 150px;
 	height: 50px;
+	cursor: pointer;
+}
+/*内容section_one*/
+#section_one {
+	width: 960px;
+	text-align: center;
+	margin: 0 auto;
+}
+#arctle img {
+	float:left;
+}
+#arctle p {
+	display: block;
+	
+}
+.balock {
+	display: inline-table;
+	margin: 30px 100px 30px 0;
+}
+	
+	
+	
+	
 
 
 
