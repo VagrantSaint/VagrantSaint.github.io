@@ -93,6 +93,45 @@ header {
 	color: #807B7B;
 	margin-bottom:50px;
 }
+/*内容section——two*/
+#section_two {
+	background-image:url(images/Background2.png);
+	height: 960px;
+}
+#section_two h2 {
+	margin:50px 200px;
+	padding-top:200px;
+	width:300px;
+	font-size: 3em;
+	text-align: left;
+	color:white;
+}
+#section_two p {
+	width: 300px;
+	margin: 0 200px;
+	font-size:2em;
+	color:white;
+}
+.button {
+	margin:40px 200px;
+}
+.button button{
+	width:200px;
+	height: 50px;
+	margin-right:20px;
+}
+.button button{
+	background-color: inherit;
+	cursor: pointer;
+	border-color: rgba(217,216,216,1.00);
+}
+.button button:first-child {
+	background-color:white;
+}
+	
+    
+	
+	
 	
 	
 
