@@ -128,12 +128,83 @@ header {
 .button button:first-child {
 	background-color:white;
 }
+/*section_three*/
+.article_one {
+	width:960px;
+	margin:0 auto;
+	display:flex;     
+}
+
+article:nth-of-type(1) h2 {
+	padding: 100px 0;
+	width: 960px;
+	margin: 0 auto;
+	text-align:center;
+	font-size: 4em;
+	font-weight:100;
+}
+.article_one div {
+	padding: 0 50px;
+	font-size:1.8em;
+	color:rgba(176,173,174,1.00)
+}
+.article_one div p {
+	margin:50px 0;
 	
-    
+}
+article:nth-of-type(2) {
+	padding:80px 0;
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.article_two img {
+	float: left;
+	padding-right: 80px;
+}
+.article_two {
+	overflow:hidden; 
+}
+.article_two h2 {
+	padding: 50px 0 30px 0;
+	font-size: 2em;
+}
+.article_two p {
+	font-size: 1.8em;
+	color: rgba(189,188,188,1.00);
+}
+.article_three img {
+	float:right;
+	padding-left: 80px;
+}
+.article_three {
+	padding-top: 80px;
+	overflow:hidden;
+}
+.article_three h2 {
+	padding: 50px 0 30px 0;
+	font-size: 2em;
+}
+.article_three p {
+	font-size: 1.8em;
+	color: rgba(189,188,188,1.00);
+}
+article:nth-of-type(3) {
+	width: 1020px;
+	text-align: center;
+	margin:0 auto;
+	padding: 80px;
+}
+article:nth-of-type(3) img {
+	margin:15px;
+}
+article:nth-of-type(3) img:hover {
+	z-index:-1;
+
 	
 	
-	
-	
+}
+	 
 
 	
 
