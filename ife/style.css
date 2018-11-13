@@ -189,22 +189,45 @@ article:nth-of-type(2) {
 	font-size: 1.8em;
 	color: rgba(189,188,188,1.00);
 }
+/*section four*/
 article:nth-of-type(3) {
 	width: 1020px;
 	text-align: center;
 	margin:0 auto;
-	padding: 80px;
+	padding: 80px 80px 800px 80px;
+	clear:both;
 }
-article:nth-of-type(3) img {
-	margin:15px;
+.active {
+	position:relative;
+	float:left;
+ }
+.active1 {
+	position:absolute;
+	top:0;
+	opacity:0;
 }
-article:nth-of-type(3) img:hover {
-	z-index:-1;
-
-	
-	
+.active1:hover {
+	 cursor:pointer;
+	 opacity:0.3;
 }
-	 
+/*section five*/
+article:nth-of-type(4) {
+	width: 1020px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:80px 0;
+}
+.section-left {
+	float:left;
+	padding-right:200px;
+    
+}
+.section-left input {
+	display:block;
+}
+#section-right {
+    overflow:hidden;
+	display:block;
 
 	
 

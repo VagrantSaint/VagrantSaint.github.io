@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>IFE ECMAScript</title>
+</head>
+<body>        
+    <input id="first-number" type="number" value="0" placeholder="第一个数字">
+    <input id="second-number" type="number" value="0" placeholder="第二个数字">
+    <button id="add-btn">加</button>
+    <button id="minus-btn">减</button>
+    <button id="times-btn">乘</button>
+    <button id="divide-btn">除</button>
+    <p id="result">运算结果</p>
+    <script>
+        document.getElementById("add-btn").onclick= myFunctionAdd
+        function myFunctionAdd(){
+            var x = parseInt(document.getElementById("first-number").value) ;
+            var y = parseInt(document.getElementById("second-number").value) ;
+           
+            var z = x+y;
+            document.getElementById("result").innerHTML= z;
+            
+        }
+        document.getElementById("minus-btn").onclick= myFunctionMinus
+        function myFunctionMinus(){
+            var x = parseInt(document.getElementById("first-number").value) ;
+            var y = parseInt(document.getElementById("second-number").value) ;
+           
+            var z = x-y;
+            document.getElementById("result").innerHTML= z;
+            
+        }
+        document.getElementById("times-btn").onclick= myFunctionTimes
+        function myFunctionTimes(){
+            var x = parseInt(document.getElementById("first-number").value) ;
+            var y = parseInt(document.getElementById("second-number").value) ;
+           
+            var z = x*y;
+            document.getElementById("result").innerHTML= z;
+            
+        }
+        document.getElementById("divide-btn").onclick= myFunctionDivide
+        function myFunctionDivide(){
+            var x = parseInt(document.getElementById("first-number").value) ;
+            var y = parseInt(document.getElementById("second-number").value) ;
+            if (y==0){
+                alert("除数不能为0")
+
+            }
+            else{
+            var z = x/y;
+            document.getElementById("result").innerHTML= z;}
+            
+        }
+        
+
+    </script>
+</body>
+</html>
